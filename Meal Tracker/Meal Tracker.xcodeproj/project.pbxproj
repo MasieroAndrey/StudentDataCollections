@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1830B16623A3064200FF29B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830B16523A3064200FF29B5 /* AppDelegate.swift */; };
-		1830B16823A3064200FF29B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830B16723A3064200FF29B5 /* SceneDelegate.swift */; };
-		1830B16D23A3064200FF29B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1830B16B23A3064200FF29B5 /* Main.storyboard */; };
-		1830B16F23A3064300FF29B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1830B16E23A3064300FF29B5 /* Assets.xcassets */; };
-		1830B17223A3064300FF29B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1830B17023A3064300FF29B5 /* LaunchScreen.storyboard */; };
-		1830B17A23A3067E00FF29B5 /* AthleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830B17923A3067E00FF29B5 /* AthleteTableViewController.swift */; };
-		348D5BA625FA569D007F274B /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D5BA525FA569D007F274B /* Athlete.swift */; };
-		348D5BAD25FA582F007F274B /* AthleteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D5BAC25FA582E007F274B /* AthleteFormViewController.swift */; };
+		3482B80925FF7573006089F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482B80825FF7573006089F5 /* AppDelegate.swift */; };
+		3482B80B25FF7573006089F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482B80A25FF7573006089F5 /* SceneDelegate.swift */; };
+		3482B80D25FF7573006089F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482B80C25FF7573006089F5 /* ViewController.swift */; };
+		3482B81025FF7573006089F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3482B80E25FF7573006089F5 /* Main.storyboard */; };
+		3482B81225FF7573006089F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3482B81125FF7573006089F5 /* Assets.xcassets */; };
+		3482B81525FF7573006089F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3482B81325FF7573006089F5 /* LaunchScreen.storyboard */; };
+		3482B81E25FF765C006089F5 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482B81D25FF765C006089F5 /* FoodTableViewController.swift */; };
+		3482B82125FF772F006089F5 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482B82025FF772F006089F5 /* Food.swift */; };
+		3482B82425FF773C006089F5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482B82325FF773C006089F5 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1830B16223A3064200FF29B5 /* FavoriteAthlete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteAthlete.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1830B16523A3064200FF29B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1830B16723A3064200FF29B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1830B16C23A3064200FF29B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1830B16E23A3064300FF29B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1830B17123A3064300FF29B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1830B17323A3064300FF29B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1830B17923A3067E00FF29B5 /* AthleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteTableViewController.swift; sourceTree = "<group>"; };
-		348D5BA525FA569D007F274B /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
-		348D5BAC25FA582E007F274B /* AthleteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteFormViewController.swift; sourceTree = "<group>"; };
+		3482B80525FF7573006089F5 /* Meal Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3482B80825FF7573006089F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3482B80A25FF7573006089F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3482B80C25FF7573006089F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3482B80F25FF7573006089F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3482B81125FF7573006089F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3482B81425FF7573006089F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3482B81625FF7573006089F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3482B81D25FF765C006089F5 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		3482B82025FF772F006089F5 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		3482B82325FF773C006089F5 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1830B15F23A3064200FF29B5 /* Frameworks */ = {
+		3482B80225FF7573006089F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,97 +43,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1830B15923A3064200FF29B5 = {
+		3482B7FC25FF7573006089F5 = {
 			isa = PBXGroup;
 			children = (
-				1830B16423A3064200FF29B5 /* FavoriteAthlete */,
-				1830B16323A3064200FF29B5 /* Products */,
+				3482B80725FF7573006089F5 /* Meal Tracker */,
+				3482B80625FF7573006089F5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1830B16323A3064200FF29B5 /* Products */ = {
+		3482B80625FF7573006089F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1830B16223A3064200FF29B5 /* FavoriteAthlete.app */,
+				3482B80525FF7573006089F5 /* Meal Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1830B16423A3064200FF29B5 /* FavoriteAthlete */ = {
+		3482B80725FF7573006089F5 /* Meal Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				348D5BAB25FA57EE007F274B /* Views */,
-				348D5BAA25FA57E5007F274B /* Controllers */,
-				1830B16523A3064200FF29B5 /* AppDelegate.swift */,
-				1830B16723A3064200FF29B5 /* SceneDelegate.swift */,
-				348D5BA825FA57CA007F274B /* Models */,
-				1830B16E23A3064300FF29B5 /* Assets.xcassets */,
-				1830B17023A3064300FF29B5 /* LaunchScreen.storyboard */,
-				1830B17323A3064300FF29B5 /* Info.plist */,
+				3482B80825FF7573006089F5 /* AppDelegate.swift */,
+				3482B80A25FF7573006089F5 /* SceneDelegate.swift */,
+				3482B80C25FF7573006089F5 /* ViewController.swift */,
+				3482B80E25FF7573006089F5 /* Main.storyboard */,
+				3482B81D25FF765C006089F5 /* FoodTableViewController.swift */,
+				3482B82025FF772F006089F5 /* Food.swift */,
+				3482B82325FF773C006089F5 /* Meal.swift */,
+				3482B81125FF7573006089F5 /* Assets.xcassets */,
+				3482B81325FF7573006089F5 /* LaunchScreen.storyboard */,
+				3482B81625FF7573006089F5 /* Info.plist */,
 			);
-			path = FavoriteAthlete;
-			sourceTree = "<group>";
-		};
-		348D5BA825FA57CA007F274B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				348D5BA525FA569D007F274B /* Athlete.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		348D5BAA25FA57E5007F274B /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				1830B17923A3067E00FF29B5 /* AthleteTableViewController.swift */,
-				348D5BAC25FA582E007F274B /* AthleteFormViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		348D5BAB25FA57EE007F274B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1830B16B23A3064200FF29B5 /* Main.storyboard */,
-			);
-			path = Views;
+			path = "Meal Tracker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1830B16123A3064200FF29B5 /* FavoriteAthlete */ = {
+		3482B80425FF7573006089F5 /* Meal Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1830B17623A3064300FF29B5 /* Build configuration list for PBXNativeTarget "FavoriteAthlete" */;
+			buildConfigurationList = 3482B81925FF7573006089F5 /* Build configuration list for PBXNativeTarget "Meal Tracker" */;
 			buildPhases = (
-				1830B15E23A3064200FF29B5 /* Sources */,
-				1830B15F23A3064200FF29B5 /* Frameworks */,
-				1830B16023A3064200FF29B5 /* Resources */,
+				3482B80125FF7573006089F5 /* Sources */,
+				3482B80225FF7573006089F5 /* Frameworks */,
+				3482B80325FF7573006089F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FavoriteAthlete;
-			productName = FavoriteAthlete;
-			productReference = 1830B16223A3064200FF29B5 /* FavoriteAthlete.app */;
+			name = "Meal Tracker";
+			productName = "Meal Tracker";
+			productReference = 3482B80525FF7573006089F5 /* Meal Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1830B15A23A3064200FF29B5 /* Project object */ = {
+		3482B7FD25FF7573006089F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					1830B16123A3064200FF29B5 = {
-						CreatedOnToolsVersion = 11.2.1;
+					3482B80425FF7573006089F5 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 1830B15D23A3064200FF29B5 /* Build configuration list for PBXProject "FavoriteAthlete" */;
+			buildConfigurationList = 3482B80025FF7573006089F5 /* Build configuration list for PBXProject "Meal Tracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,57 +118,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 1830B15923A3064200FF29B5;
-			productRefGroup = 1830B16323A3064200FF29B5 /* Products */;
+			mainGroup = 3482B7FC25FF7573006089F5;
+			productRefGroup = 3482B80625FF7573006089F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1830B16123A3064200FF29B5 /* FavoriteAthlete */,
+				3482B80425FF7573006089F5 /* Meal Tracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1830B16023A3064200FF29B5 /* Resources */ = {
+		3482B80325FF7573006089F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1830B17223A3064300FF29B5 /* LaunchScreen.storyboard in Resources */,
-				1830B16F23A3064300FF29B5 /* Assets.xcassets in Resources */,
-				1830B16D23A3064200FF29B5 /* Main.storyboard in Resources */,
+				3482B81525FF7573006089F5 /* LaunchScreen.storyboard in Resources */,
+				3482B81225FF7573006089F5 /* Assets.xcassets in Resources */,
+				3482B81025FF7573006089F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1830B15E23A3064200FF29B5 /* Sources */ = {
+		3482B80125FF7573006089F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348D5BAD25FA582F007F274B /* AthleteFormViewController.swift in Sources */,
-				1830B16623A3064200FF29B5 /* AppDelegate.swift in Sources */,
-				1830B16823A3064200FF29B5 /* SceneDelegate.swift in Sources */,
-				1830B17A23A3067E00FF29B5 /* AthleteTableViewController.swift in Sources */,
-				348D5BA625FA569D007F274B /* Athlete.swift in Sources */,
+				3482B80D25FF7573006089F5 /* ViewController.swift in Sources */,
+				3482B80925FF7573006089F5 /* AppDelegate.swift in Sources */,
+				3482B82125FF772F006089F5 /* Food.swift in Sources */,
+				3482B80B25FF7573006089F5 /* SceneDelegate.swift in Sources */,
+				3482B82425FF773C006089F5 /* Meal.swift in Sources */,
+				3482B81E25FF765C006089F5 /* FoodTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1830B16B23A3064200FF29B5 /* Main.storyboard */ = {
+		3482B80E25FF7573006089F5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1830B16C23A3064200FF29B5 /* Base */,
+				3482B80F25FF7573006089F5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1830B17023A3064300FF29B5 /* LaunchScreen.storyboard */ = {
+		3482B81325FF7573006089F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1830B17123A3064300FF29B5 /* Base */,
+				3482B81425FF7573006089F5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -197,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1830B17423A3064300FF29B5 /* Debug */ = {
+		3482B81725FF7573006089F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,6 +203,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -247,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		1830B17523A3064300FF29B5 /* Release */ = {
+		3482B81825FF7573006089F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,6 +264,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -301,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -311,34 +293,36 @@
 			};
 			name = Release;
 		};
-		1830B17723A3064300FF29B5 /* Debug */ = {
+		3482B81A25FF7573006089F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FavoriteAthlete/Info.plist;
+				INFOPLIST_FILE = "Meal Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FavoriteAthlete;
+				PRODUCT_BUNDLE_IDENTIFIER = "masieroandrey.Meal-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1830B17823A3064300FF29B5 /* Release */ = {
+		3482B81B25FF7573006089F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FavoriteAthlete/Info.plist;
+				INFOPLIST_FILE = "Meal Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FavoriteAthlete;
+				PRODUCT_BUNDLE_IDENTIFIER = "masieroandrey.Meal-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1830B15D23A3064200FF29B5 /* Build configuration list for PBXProject "FavoriteAthlete" */ = {
+		3482B80025FF7573006089F5 /* Build configuration list for PBXProject "Meal Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1830B17423A3064300FF29B5 /* Debug */,
-				1830B17523A3064300FF29B5 /* Release */,
+				3482B81725FF7573006089F5 /* Debug */,
+				3482B81825FF7573006089F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1830B17623A3064300FF29B5 /* Build configuration list for PBXNativeTarget "FavoriteAthlete" */ = {
+		3482B81925FF7573006089F5 /* Build configuration list for PBXNativeTarget "Meal Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1830B17723A3064300FF29B5 /* Debug */,
-				1830B17823A3064300FF29B5 /* Release */,
+				3482B81A25FF7573006089F5 /* Debug */,
+				3482B81B25FF7573006089F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1830B15A23A3064200FF29B5 /* Project object */;
+	rootObject = 3482B7FD25FF7573006089F5 /* Project object */;
 }
